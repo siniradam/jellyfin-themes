@@ -1,7 +1,7 @@
 /* Comfort */
 
 /* Home Page Section Styling */
-@import url("./homepage.css");
+@import url("https://raw.githubusercontent.com/siniradam/jellyfin-themes/main/comfort/homepage.css");
 
 /* Colors */
 :root {
@@ -21,13 +21,13 @@
 }
 
 /* Generic Items */
-@import url("./elements.css");
+@import url("https://raw.githubusercontent.com/siniradam/jellyfin-themes/main/comfort/elements.css");
 
 /* # Player */
-@import url("./player.css");
+@import url("https://raw.githubusercontent.com/siniradam/jellyfin-themes/main/comfort/player.css");
 
 /* # Backgrounds */
-@import url("./background.css");
+@import url("https://raw.githubusercontent.com/siniradam/jellyfin-themes/main/comfort/background.css");
 
 /* # Posters */
-@import url("./posters.css");
+@import url("https://raw.githubusercontent.com/siniradam/jellyfin-themes/main/comfort/posters.css");
