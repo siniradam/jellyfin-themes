@@ -1,0 +1,29 @@
+/* Comfort */
+
+/* Home Page Section Styling */
+@import url("homepage.css");
+
+/* Colors */
+:root {
+  --accent: 220, 51, 0;
+  --accent-color: rgb(var(--accent));
+  --osdText: #ffffff; /* OSD text color */
+  --backdropColor: rgba(0, 0, 0, 0.6);
+  --backdropBlur: 4px;
+  --dashboardBackground: url("https://i.ibb.co/ht2dtwW/bg-red.jpg");
+  --dashboardBackgroundSize: cover;
+  --dashboardBackgroundPosition: top center;
+  --dashboardBackground2: url("https://i.ibb.co/zH69wb3y/bg.jpg");
+}
+
+/* Generic Items */
+@import url("elements.css");
+
+/* # Player */
+@import url("player.css");
+
+/* # Backgrounds */
+@import url("background.css");
+
+/* # Posters */
+@import url("posters.css");

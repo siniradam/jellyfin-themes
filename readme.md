@@ -1,0 +1,12 @@
+# Jellyfin Themes
+My personal jellyfin themes. Hopefully you find them useful.
+
+I've tried to split changes into separate sections, so you can pick and choose what you want to use rather than having to use everything at once.
+
+
+## Installation
+Add this to the Custom CSS Code input in your Dashboard > General page.
+```css
+@import url("homepage.css");
+```
+

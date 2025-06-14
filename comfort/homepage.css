@@ -1,0 +1,33 @@
+/* Home Page Section Styling */
+@media (min-width: 1400px) {
+  /* Home Page My Media (Collection) Items (First Row)*/
+  .sections .verticalSection.section0 .itemsContainer > div {
+    width: 15vw !important;
+  }
+
+  /* First Row Title */
+  .section0 .sectionTitle,
+  .sections .verticalSection.section0 .itemsContainer > div .cardText {
+    display: none;
+  }
+
+  .sections .verticalSection.section0 .itemsContainer {
+    justify-content: space-between;
+  }
+
+  /* Home Page (Second Row) Items - Recently Added in Movies */
+  .sections .section1 .verticalSection:first-child .itemsContainer > div {
+    width: 16vw !important;
+  }
+
+  /*
+  .detailPageContent {
+    max-height: 51vh;
+    overflow: auto;
+  }
+  */
+}
+
+.sections .verticalSection .verticalSection:first-child .itemsContainer > div {
+  width: 23vw !important;
+}

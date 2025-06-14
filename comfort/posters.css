@@ -1,0 +1,20 @@
+/* Media Poster: Hover Effect */
+.cardScalable {
+  border-radius: 13px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cardScalable:hover {
+  transform: scale(1.08);
+}
+
+.card-hoverable .cardImageContainer {
+  background-position: center;
+  background-size: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-hoverable:hover .cardImageContainer {
+  background-size: 105%;
+}

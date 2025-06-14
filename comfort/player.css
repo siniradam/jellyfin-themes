@@ -1,0 +1,152 @@
+/* # Player */
+
+/* Player - Progress Bar */
+.mdl-slider-background-upper,
+.mdl-slider-background-lower,
+.iconOsdProgressInner {
+  background-color: var(--accent-color) !important;
+}
+
+.mdl-slider::-moz-range-thumb {
+  background-color: var(--accent-color);
+}
+.mdl-slider::-ms-thumb {
+  background-color: var(--accent-color);
+}
+.mdl-slider::-webkit-slider-thumb {
+  background-color: var(--accent-color);
+}
+
+.button-flat:hover {
+  color: var(--accent-color);
+}
+
+/* Player - Progress */
+.mdl-slider {
+  color: var(--accent-color);
+}
+
+.videoOsdBottom {
+  /* background: rgba(0, 0, 0, 0.7); */
+}
+
+/* mdl-slider-background-flex */
+/* mdl-slider-background-flex-inner */
+/* mdl-slider-background-upper */
+/* mdl-slider-background-lower */
+
+.mdl-switch__input:checked
+  + .mdl-switch__label
+  + .mdl-switch__trackContainer
+  > .mdl-switch__track {
+  background: rgba(120, 120, 120, 0.6);
+}
+.mdl-switch__input:checked
+  + .mdl-switch__label
+  + .mdl-switch__trackContainer
+  > .mdl-switch__thumb {
+  background: white;
+}
+
+/* Accent Color Unify: Generic Button */
+.paper-icon-button-light:hover {
+  color: rgba(var(--accent), 0.9) !important;
+  background-color: rgba(var(--accent), 0.2) !important;
+}
+
+/* Accent Color Unify: Progress, Checkbox */
+.emby-checkbox:checked + span + .checkboxOutline,
+.itemProgressBarForeground {
+  background-color: rgba(var(--accent), 0.8) !important;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline {
+  border-color: var(--accent-color);
+}
+
+.videoOsdBottom {
+  color: var(--osdText);
+}
+
+.osdControls .buttons > div {
+  display: flex;
+}
+
+/* Floating OSD  Rewind, Forward, Play Buttons */
+.btnRewind,
+.btnFastForward,
+.btnPause {
+  position: absolute !important;
+  top: -45vh;
+  zoom: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(16px);
+}
+
+.btnPause {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btnRewind {
+  left: 6%;
+}
+
+.btnFastForward {
+  right: 6%;
+}
+
+.btnRewind:hover,
+.btnFastForward:hover,
+.btnPause:hover {
+  color: rgba(var(--accent), 0.8) !important;
+  background-color: var(--backdropColor) !important;
+}
+
+.btnRewind > span,
+.btnFastForward > span,
+.btnPause > span {
+  zoom: 3;
+  padding: 15px;
+}
+
+.btnPause > span {
+  zoom: 4;
+}
+
+.btnNextTrack {
+  position: absolute;
+  right: 0.8em;
+}
+
+.btnPreviousTrack,
+.btnNextTrack {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.btnPreviousTrack:after,
+.btnNextTrack:before {
+  display: inline-flex;
+  font-size: 1em;
+  padding-bottom: 0.3em;
+}
+
+.btnPreviousTrack:after {
+  content: "Previous";
+}
+
+.btnNextTrack:before {
+  content: "Next";
+}
+
+.osdTimeText {
+  /* width: calc(100vw - (2.586em + 0.29em) * 18); */
+  margin-left: auto;
+  padding-left: 15em;
+}
+
+.btnFullscreen {
+  margin-right: 6em;
+}

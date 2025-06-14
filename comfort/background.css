@@ -1,0 +1,44 @@
+/* # Backgrounds */
+/* Page Background: Shared */
+.backgroundContainer.withBackdrop {
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  /* backdrop-filter: blur(4px); */
+  background: transparent;
+}
+
+/* Dashboard Background */
+.backdropContainer:empty {
+  background: var(--dashboardBackground);
+  background-size: var(--dashboardBackgroundSize);
+  background-position: var(--dashboardBackgroundPosition);
+  background-repeat: no-repeat;
+}
+
+.backdropContainer:empty ~ .backgroundContainer {
+  background: rgb(0 0 0 / 80%);
+}
+
+/* Page Background: HomePage Only */
+.backgroundContainer.withBackdrop:has(~ .mainAnimatedPages > .homePage) {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+/* Page Background: Media Item Only */
+.backgroundContainer.withBackdrop:has(~ .mainAnimatedPages > .itemDetailPage) {
+  /* It has it's own blur. */
+}
+/*  */
+/* Media Page: Content Backdrop */
+.detailPageWrapperContainer {
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+/* Media Page: Ribbon*/
+.detailRibbon {
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  position: sticky !important;
+  top: 65px;
+}

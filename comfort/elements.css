@@ -1,0 +1,61 @@
+.mainDrawer {
+  background: var(--backdropColor);
+  backdrop-filter: blur(var(--backdropBlur));
+}
+
+.MuiDrawer-paper {
+  background: rgb(0 0 0 / 45%);
+  backdrop-filter: blur(var(--backdropBlur));
+}
+
+.dialog {
+  background-color: var(--backdropColor);
+  backdrop-filter: blur(var(--backdropBlur));
+}
+
+.MuiAvatar-colorDefault,
+.listItemIcon:not(.listItemIcon-transparent),
+.defaultCardBackground1,
+.defaultCardBackground2,
+.defaultCardBackground3,
+.defaultCardBackground4,
+.defaultCardBackground5 {
+  background-color: rgba(var(--accent), 0.8) !important;
+}
+
+/* Drawer Menu */
+a.Mui-selected {
+  background-color: rgba(var(--accent), 0.1) !important;
+}
+
+/* Buttons, Inputs */
+.content-primary .button-link {
+  color: rgba(var(--accent), 0.9) !important;
+}
+.inputLabelFocused,
+.textareaLabelFocused,
+.selectLabelFocused {
+  color: rgba(var(--accent), 0.8) !important;
+}
+
+.button-submit,
+.countIndicator,
+.fullSyncIndicator,
+.mediaSourceIndicator,
+.playedIndicator {
+  background-color: var(--accent-color) !important;
+}
+
+.emby-input:focus,
+.emby-textarea:focus {
+  border-color: rgba(var(--accent), 0.6) !important;
+  border-width: 1px !important;
+}
+
+/* Loading Spinner */
+.mdl-spinner__layer-1,
+.mdl-spinner__layer-2,
+.mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+  border-color: var(--accent-color) !important;
+}
