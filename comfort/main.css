@@ -1,7 +1,6 @@
 /* Comfort */
 /* Home Page Section Styling */
-main.css
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@main/comfort/homepage.css");
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/homepage.css");
 
 /* Colors */
 :root {
@@ -21,13 +20,13 @@ main.css
 }
 
 /* Generic Items */
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@main/comfort/elements.css");
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/elements.css");
 
 /* # Player */
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@main/comfort/player.css");
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/player.css");
 
 /* # Backgrounds */
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@main/comfort/background.css");
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/background.css");
 
 /* # Posters */
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@main/comfort/posters.css");
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/posters.css");

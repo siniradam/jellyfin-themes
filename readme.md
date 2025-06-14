@@ -7,7 +7,7 @@ I've tried to split changes into separate sections, so you can pick and choose w
 ## Installation
 Add this to the Custom CSS Code input in your Dashboard > General page.
 ```css
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@main/comfort/main.css");
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/main.css");
 ```
 
 ![Comfort Player](https://raw.githubusercontent.com/siniradam/jellyfin-themes/main/comfort/screenshots/player.png)
