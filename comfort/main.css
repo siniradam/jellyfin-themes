@@ -1,6 +1,18 @@
-/* Comfort */
+/* Comfort Theme */
 /* Home Page Section Styling */
 @import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/homepage.css");
+
+/* Generic Items */
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/elements.css");
+
+/* # Player */
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/player.css");
+
+/* # Backgrounds */
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/background.css");
+
+/* # Posters */
+@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/posters.css");
 
 /* Colors */
 :root {
@@ -19,14 +31,12 @@
   --dashboardBackground2: url("https://i.ibb.co/zH69wb3y/bg.jpg");
 }
 
-/* Generic Items */
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/elements.css");
+/* .itemsContainer:has(.playedIndicator) {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
-/* # Player */
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/player.css");
-
-/* # Backgrounds */
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/background.css");
-
-/* # Posters */
-@import url("https://cdn.jsdelivr.net/gh/siniradam/jellyfin-themes@latest/comfort/posters.css");
+.listItem-content:has(.playedIndicator) {
+  width: 6rem;
+  height: 6rem;
+} */
